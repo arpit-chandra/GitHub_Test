@@ -16,7 +16,7 @@ namespace HelloOkta
     {
         static void Main(string[] args)
         {
-            var oktaClient = new OktaClient("00ty358R_ItCrIsZ7BxEA7dkPOJWtlc8Rt40A2JBBK", new Uri("https://piedmont.oktapreview.com"));
+            var oktaClient = new OktaClient("", new Uri("https://piedmont.oktapreview.com"));
             var usersClient = oktaClient.GetUsersClient();
 
             try
